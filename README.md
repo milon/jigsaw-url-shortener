@@ -15,7 +15,7 @@ For example, you have a twitter, linkedin and facebook page. Each of them has di
 
 #### Installation
 
-```
+```bash
 composer require milon/jigsaw-url-shortener
 ```
 
@@ -23,7 +23,7 @@ composer require milon/jigsaw-url-shortener
 
 First you need to create a new entry in config file named `urlRedirects`.
 
-```
+```php
 [
     ...,
     'urlRedirects' => [
@@ -44,7 +44,7 @@ First you need to create a new entry in config file named `urlRedirects`.
 
 For easier readability, I recommend export this config to a separate file. You can create a file named `redirects.php` in the root folder, which should look like this-
 
-```
+```php
 <?php
 
 return [
@@ -61,7 +61,7 @@ return [
 
 And the config file should look like this-
 
-```
+```php
 [
     ...,
     'urlRedirects' => require_once(__DIR__ . '/redirects.php'),
@@ -71,7 +71,7 @@ And the config file should look like this-
 
 Then in the `bootstarp.php` file, register a new listener to `afterBuild` event.
 
-```
+```php
 $events->afterBuild(Milon\JigsawUrlShortener\GenerateUrlRedirect::class);
 ```
 
