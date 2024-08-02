@@ -1,7 +1,7 @@
 {
     "name": "milon/jigsaw-url-shortener",
     "description": "A URL Shortener for your Jigsaw powered website",
-    "type": "composer-plugin",
+    "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
