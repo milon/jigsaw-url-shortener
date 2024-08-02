@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-This can be used to host several link if you already have a jigsaw powered site. Let's say you have various social links and you want a easy way to share all of those. Rather than remember all the different username and url patterns or these different website, you can now have a consistent format.
+This can be used to host several link if you already have a [Jigsaw](https://jigsaw.tighten.com) powered site. Let's say you have various social links and you want a easy way to share all of those. Rather than remember all the different username and url patterns or these different website, you can now have a consistent format.
 
 For example, you have a twitter, linkedin and facebook page. Each of them has different url pattern, but now you can use a common pattern. For instance, if my website's url is `http://milon.im`, now I can have `http://milon.im/twitter`, `http://milon.im/facebook` and `http://milon.im/linkedin` and these will redirect to the origin website.
 
