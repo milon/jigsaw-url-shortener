@@ -1,0 +1,23 @@
+{
+    "name": "milon/jigsaw-url-shortener",
+    "description": "A URL Shortener for your Jigsaw powered website",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Milon\\JigsawUrlShortener\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nuruzzaman Milon",
+            "email": "contact@milon.im"
+        }
+    ],
+    "require": {
+        "tightenco/jigsaw": "^1.7"
+    },
+    "require-dev": {
+        
+    }
+}
