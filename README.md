@@ -10,7 +10,7 @@ For example, you have a twitter, linkedin and facebook page. Each of them has di
 
 #### Requirements
 
-- PHP 8.1 or higher
+- PHP 8.2 or higher
 - Jigsaw 1.7 or higher
 
 #### Installation

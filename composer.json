@@ -8,6 +8,11 @@
             "Milon\\JigsawUrlShortener\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Milon\\JigsawUrlShortener\\Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "Nuruzzaman Milon",
@@ -15,9 +20,14 @@
         }
     ],
     "require": {
+        "php": "^8.2",
         "tightenco/jigsaw": "^1.7"
     },
     "require-dev": {
-        
+        "mockery/mockery": "^1.6",
+        "phpunit/phpunit": "^10.5"
+    },
+    "scripts": {
+        "test": "phpunit"
     }
 }
